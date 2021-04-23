@@ -5,7 +5,7 @@ import {Link } from 'react-router-dom'
 const HeaderStyled = styled.div`
 background: var(--white);
   margin-bottom: 1em;
-  box-shadow: 0 2px 4px 0 rgba(0,0,0,.06);
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.4);
   .content {
     height: 80px;
     display: flex;

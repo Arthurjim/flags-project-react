@@ -3,7 +3,7 @@ import styled from 'styled-components';
 const InputStyled = styled.label`
     background: var(--white);
   align-items: center;
-  box-shadow: 0 2px 9px 0 rgba(0,0,0,.05);
+  box-shadow: 0 2px 9px 0 rgba(0,0,0,.1);
   padding: 0 2rem;
   border-radius: 5px;
   flex: 1;
@@ -17,12 +17,12 @@ const InputStyled = styled.label`
     border: none;
     height: 48px;
     line-height: 48px;
-    font-size: .7em;
+    font-size: .8em;
     outline: 0;
     color: var(--black);
     background: var(--white);
     &::-webkit-input-placeholder {
-      color: #C4C4C4;
+      color: #929292;
     }
   }
 `

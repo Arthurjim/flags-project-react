@@ -52,6 +52,7 @@ const Country = ({
   let history = useHistory();
 
   const handleCountry =()=>{
+    
     history.push(`/country/${alpha2Code}`)
   }
   return ( 
